@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Baloo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo'), local('Baloo-Regular'), url(https://fonts.gstatic.com/s/baloo/v1/wXtl3GwvlVYSMjNucXLj_6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}

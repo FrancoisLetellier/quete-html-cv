@@ -1,0 +1,205 @@
+body{
+background-color: rgb(104,187,285);
+
+}
+
+h1{
+font-family: 'Baloo', cursive;
+font-size: 50px;
+background-color:rgb(9,30,45);
+color: white;
+text-align:center;
+border : 3px solid white;
+border-radius: 15px;
+margin:10px 5px 10px 5px;
+
+}
+
+
+/*a ce niveau on peut gérer le container puis la box-left et la box-right*/
+
+
+
+#container{
+display:flex;
+
+
+
+}
+
+#left-box{
+font-family: 'Baloo', cursive;
+color: white;
+float:left;
+background-color:rgb(9,30,45);
+width : 40%;
+margin-left:5px;
+margin-right:5px;
+margin-bottom:5px;
+margin-top:5px;
+border: 3px solid white;
+border-radius: 15px ;
+display:block;
+
+}
+
+#right-box{
+background-color: rgb(104,187,285);
+font-family: 'Baloo', cursive;
+width: 60%;
+margin-bottom:5px;
+margin-top:5px;
+display:inline-block;
+margin-right:1%;
+
+
+
+
+
+}
+
+/*Ceci est la partie gauche de mon cv avec ma photo, description, contact,langues,..*/
+
+
+
+#left-box>h3{
+width: 80%;
+margin-left : 10%;
+margin-right :10%;
+
+text-decoration: underline;
+
+}
+
+
+img{
+width: 35%;
+margin:30px auto;
+display:block;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+}
+
+
+.description{
+text-align:justify;
+width: 80%;
+margin-left : 10%;
+margin-right :10%;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+padding:3px 5px 3px 5px;
+
+}
+
+.coordonnee{
+text-align:justify;
+width: 80%;
+margin-left : 10%;
+margin-right :10%;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+
+}
+
+.langues{
+text-align:justify;
+width: 80%;
+margin-left : 10%;
+margin-right :10%;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+
+}
+
+.loisir{
+text-align:justify;
+width: 80%;
+margin-left : 10%;
+margin-right :10%;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+margin-bottom: 15px;
+}
+
+/*ceci est la partie right box de mon cv*/
+
+
+#experiences-box{
+background-color:white;
+border-radius:15px;
+padding-bottom:4px;
+padding-top:4px;
+border: 3px ;
+
+}
+
+#studies-box{
+background-color:white;
+border-radius:15px;
+padding-bottom:4px;
+border: 3px ;
+
+
+}
+
+.experience{
+text-align:justify;
+width: 90%;
+margin-left : 5%;
+margin-right :5%;
+margin-top : 10px;
+margin-bottom : 10px;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+padding:3px 5px 3px 5px;
+background-color:rgb(9,30,45);
+color:white;
+}
+
+.study{
+text-align:justify;
+width: 90%;
+margin-left : 5%;
+margin-right :5%;
+margin-top : 10px;
+margin-bottom : 10px;
+border: 3px solid rgb(104,187,285);
+border-radius: 15px ;
+padding:3px 5px 3px 5px;
+background-color:rgb(9,30,45);
+color:white;
+
+}
+
+h2{
+text-align:center;
+text-decoration: underline;
+margin-bottom:5px;
+padding-top: 5px;
+
+}
+
+.logo{
+width:5%;
+display:inline-block;
+margin-left: 15%;
+margin-right:10%;
+margin-top: 10px;
+
+}
+
+h4{
+margin-left:5%;
+color:white;
+
+}
+
+footer{
+font-family: 'Baloo', cursive;
+margin:3px 10px 3px 10px;
+background-color:rgb(9,30,45);
+border-radius: 15px;
+
+
+}
